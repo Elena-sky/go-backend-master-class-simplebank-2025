@@ -42,6 +42,13 @@ Link to the course https://www.udemy.com/course/backend-master-class-golang-post
     make migrateup
     ```
 
+### How to run
+
+- Run test:
+
+    ```bash
+    make test
+    ```
 
 
 Useful links
