@@ -5,7 +5,7 @@ Link to the course https://www.udemy.com/course/backend-master-class-golang-post
 
 ![Backend master class](backend-master.png)
 
-In this backend master class, we’re going to learn everything about how to design, develop, and deploy a complete backend system from scratch using PostgreSQL, Golang and Docker.
+In this backend master class, we’re going to learn everything about how to design, develop, and deploy a complete backend system from scratch using Golang, PostgreSQL, and Docker.
 
 ## Simple bank service
 
