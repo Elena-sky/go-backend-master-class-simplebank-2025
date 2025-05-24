@@ -1,7 +1,6 @@
-# Backend Master Class [Golang + Postgres + Kubernetes + gRPC]
+# Simple Bank
 
 This repository contains the codes of the [Backend master class](https://bit.ly/backendmaster) course by [TECH SCHOOL](https://dev.to/techschoolguru).
-Link to the course https://www.udemy.com/course/backend-master-class-golang-postgresql-kubernetes/
 
 ![Backend master class](backend-master.png)
 
@@ -25,6 +24,15 @@ In this backend master class, we’re going to learn everything about how to des
 - Lecture #14: [Implement transfer money API with a custom params validator](https://www.youtube.com/watch?v=5q_wsashJZA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=14)
 - Lecture #15: [Add users table with unique & foreign key constraints in PostgreSQL](https://www.youtube.com/watch?v=D4VtNC3vQUs&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=15)
 - Lecture #16: [How to handle DB errors in Golang correctly](https://www.youtube.com/watch?v=mJ8b5GcvoxQ&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=16)
+- Lecture #17: [How to securely store passwords? Hash password in Go with Bcrypt!](https://www.youtube.com/watch?v=B3xnJI2lHmc&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=17)
+- Lecture #18: [How to write stronger unit tests with a custom gomock matcher](https://www.youtube.com/watch?v=DuzBE0jKOgE&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=18)
+- Lecture #19: [Why PASETO is better than JWT for token-based authentication?](https://www.youtube.com/watch?v=nBGx-q52KAY&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=19)
+- Lecture #20: [How to create and verify JWT & PASETO token in Golang](https://www.youtube.com/watch?v=Oi4FHDGILuY&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=20)
+- Lecture #21: [Implement login user API that returns PASETO or JWT access token in Go](https://www.youtube.com/watch?v=lnHbZ9GOGAs&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=21)
+- Lecture #22: [Implement authentication middleware and authorization rules in Golang using Gin](https://www.youtube.com/watch?v=Pw8fVBRS4jA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=22)
+- Lecture #23: [Build a minimal Golang Docker image with a multistage Dockerfile](https://www.youtube.com/watch?v=p1dwLKAxUxA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=23)
+- Lecture #24: [How to use docker network to connect 2 stand-alone containers](https://www.youtube.com/watch?v=VcFnqQarpjI&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=24)
+- Lecture #25: [How to write docker-compose file and control service start-up orders with wait-for.sh](https://www.youtube.com/watch?v=jf6sQsz0M1M&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=25)
 
 ## Simple bank service
 
@@ -51,10 +59,22 @@ The service that we’re going to build is a simple bank. It will provide APIs f
 - [Sqlc](https://github.com/kyleconroy/sqlc#installation)
 
     ```bash
-    brew install golang-migrate
+    brew install sqlc
     ```
 
+- [Gomock](https://github.com/golang/mock)
+
+	``` bash
+	go install github.com/golang/mock/mockgen@v1.6.0
+	```
+
 ### Setup infrastructure
+
+- Create the bank-network
+
+	``` bash
+	make network
+	```
 
 - Start postgres container:
 
