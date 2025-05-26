@@ -8,6 +8,8 @@ In this backend master class, we’re going to learn everything about how to des
 
 ## Course videos
 
+### Section 1: Working with database [Postgres]
+
 - Lecture #1: [Design DB schema and generate SQL code with dbdiagram.io](https://www.youtube.com/watch?v=rx6CPDK_5mU&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=1)
 - Lecture #2: [Install & use Docker + Postgres + TablePlus to create DB schema](https://www.youtube.com/watch?v=Q9ipbLeqmQo&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=2)
 - Lecture #3: [How to write & run database migration in Golang](https://www.youtube.com/watch?v=0CYkrGIJkpw&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=3)
@@ -18,6 +20,9 @@ In this backend master class, we’re going to learn everything about how to des
 - Lecture #8: [How to avoid deadlock in DB transaction? Queries order matters!](https://www.youtube.com/watch?v=qn3-5wdOfoA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=8)
 - Lecture #9: [Deeply understand transaction isolation levels & read phenomena in MySQL & PostgreSQL](https://www.youtube.com/watch?v=4EajrPgJAk0&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=9)
 - Lecture #10: [Setup Github Actions for Golang + Postgres to run automated tests](https://www.youtube.com/watch?v=3mzQRJY1GVE&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=10)
+
+### Section 2: Building RESTful HTTP JSON API [Gin]
+
 - Lecture #11: [Implement RESTful HTTP API in Go using Gin](https://www.youtube.com/watch?v=n_Y_YisgqTw&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=11)
 - Lecture #12: [Load config from file & environment variables in Go with Viper](https://www.youtube.com/watch?v=n5p8HkO6bnE&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=12)
 - Lecture #13: [Mock DB for testing HTTP API in Go and achieve 100% coverage](https://www.youtube.com/watch?v=rL0aeMutoJ0&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=13)
@@ -30,6 +35,9 @@ In this backend master class, we’re going to learn everything about how to des
 - Lecture #20: [How to create and verify JWT & PASETO token in Golang](https://www.youtube.com/watch?v=Oi4FHDGILuY&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=20)
 - Lecture #21: [Implement login user API that returns PASETO or JWT access token in Go](https://www.youtube.com/watch?v=lnHbZ9GOGAs&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=21)
 - Lecture #22: [Implement authentication middleware and authorization rules in Golang using Gin](https://www.youtube.com/watch?v=Pw8fVBRS4jA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=22)
+
+### Section 3: Deploying the application to production [Kubernetes + AWS]
+
 - Lecture #23: [Build a minimal Golang Docker image with a multistage Dockerfile](https://www.youtube.com/watch?v=p1dwLKAxUxA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=23)
 - Lecture #24: [How to use docker network to connect 2 stand-alone containers](https://www.youtube.com/watch?v=VcFnqQarpjI&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=24)
 - Lecture #25: [How to write docker-compose file and control service start-up orders with wait-for.sh](https://www.youtube.com/watch?v=jf6sQsz0M1M&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=25)
@@ -44,6 +52,26 @@ In this backend master class, we’re going to learn everything about how to des
 - Lecture #34: [How to use Ingress to route traffics to different services in Kubernetes](https://www.youtube.com/watch?v=lBrqP6FkNsU&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=34)
 - Lecture #35: [Automatic issue TLS certificates in Kubernetes with Let's Encrypt](https://www.youtube.com/watch?v=nU4FTjrgSKI&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=35)
 - Lecture #36: [Automatic deploy to Kubernetes with Github Action](https://www.youtube.com/watch?v=GVY-zze0V_U&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=36)
+
+### Section 4: Advanced Backend Topics [gRPC]
+
+- Lecture #37: [How to manage user session with refresh token - Golang](https://www.youtube.com/watch?v=rT20ylRLm5U&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=37)
+- Lecture #38: [Generate DB documentation page and schema SQL dump from DBML](https://www.youtube.com/watch?v=dGfVwsPr-IU&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=38)
+- Lecture #39: [Introduction to gRPC](https://www.youtube.com/watch?v=mRGnA3wPxMM&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=39)
+- Lecture #40: [Define gRPC API and generate Go code with protobuf](https://www.youtube.com/watch?v=mVWgEmyAhvM&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=40)
+- Lecture #41: [How to run a golang gRPC server and call its API](https://www.youtube.com/watch?v=BkfBJIS0_ro&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=41)
+- Lecture #42: [Implement gRPC API to create and login users in Go](https://www.youtube.com/watch?v=7xiWqyZW9lE&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=42)
+- Lecture #43: [Write code once, serve both gRPC & HTTP requests](https://www.youtube.com/watch?v=3FfDH3d0aHs&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=43)
+- Lecture #44: [How to extract info from gRPC metadata](https://www.youtube.com/watch?v=Sno10WQ21Zs&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=44)
+- Lecture #45: [Automatic generate & serve Swagger docs from Go server](https://www.youtube.com/watch?v=Uwkxxee7tvk&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=45)
+- Lecture #46: [Embed static frontend files inside Golang backend server's binary](https://www.youtube.com/watch?v=xNgOIm86N5Q&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=46)
+- Lecture #47: [Validate gRPC parameters and send human/machine friendly response](https://www.youtube.com/watch?v=CxZ9hMtmZtc&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=47)
+- Lecture #48: [Run DB migrations directly inside Golang code](https://www.youtube.com/watch?v=TG43cMpaxlI&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=48)
+- Lecture #49: [Partial update DB record with SQLC nullable parameters](https://www.youtube.com/watch?v=I2sbw1PzzW0&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=49)
+- Lecture #50: [Build gRPC update API with optional parameters](https://www.youtube.com/watch?v=ygqSHIEc8sc&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=50)
+- Lecture #51: [Add authorization to protect gRPC API](https://www.youtube.com/watch?v=_jqNs3d99ps&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=51)
+- Lecture #52: [Write structured logs for gRPC APIs](https://www.youtube.com/watch?v=tTAxLGrDmPo&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=52)
+- Lecture #53: [How to write HTTP logger middleware in Go](https://www.youtube.com/watch?v=Lbiz-PZNiU0&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=53)
 
 ## Simple bank service
 
@@ -89,17 +117,17 @@ The service that we’re going to build is a simple bank. It will provide APIs f
 
 - [Gomock](https://github.com/golang/mock)
 
-	``` bash
-	go install github.com/golang/mock/mockgen@v1.6.0
-	```
+    ``` bash
+    go install github.com/golang/mock/mockgen@v1.6.0
+    ```
 
 ### Setup infrastructure
 
 - Create the bank-network
 
-	``` bash
-	make network
-	```
+    ``` bash
+    make network
+    ```
 
 - Start postgres container:
 
