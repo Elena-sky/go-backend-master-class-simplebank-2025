@@ -1,10 +1,8 @@
 # Simple Bank
 
-This repository contains the codes of the [Backend master class](https://bit.ly/backendmaster) course by [TECH SCHOOL](https://dev.to/techschoolguru).
+This repository contains the codes of the [Backend Master Class](https://bit.ly/backendmaster) course by [TECH SCHOOL](https://bit.ly/m/techschool).
 
 ![Backend master class](backend-master.png)
-
-In this backend master class, we’re going to learn everything about how to design, develop, and deploy a complete backend system from scratch using Golang, PostgreSQL, and Docker.
 
 ## Course videos
 
@@ -53,7 +51,7 @@ In this backend master class, we’re going to learn everything about how to des
 - Lecture #35: [Automatic issue TLS certificates in Kubernetes with Let's Encrypt](https://www.youtube.com/watch?v=nU4FTjrgSKI&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=35)
 - Lecture #36: [Automatic deploy to Kubernetes with Github Action](https://www.youtube.com/watch?v=GVY-zze0V_U&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=36)
 
-### Section 4: Advanced Backend Topics [gRPC]
+### Section 4: Advanced Backend Topics [Sessions + gRPC]
 
 - Lecture #37: [How to manage user session with refresh token - Golang](https://www.youtube.com/watch?v=rT20ylRLm5U&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=37)
 - Lecture #38: [Generate DB documentation page and schema SQL dump from DBML](https://www.youtube.com/watch?v=dGfVwsPr-IU&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=38)
@@ -72,6 +70,16 @@ In this backend master class, we’re going to learn everything about how to des
 - Lecture #51: [Add authorization to protect gRPC API](https://www.youtube.com/watch?v=_jqNs3d99ps&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=51)
 - Lecture #52: [Write structured logs for gRPC APIs](https://www.youtube.com/watch?v=tTAxLGrDmPo&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=52)
 - Lecture #53: [How to write HTTP logger middleware in Go](https://www.youtube.com/watch?v=Lbiz-PZNiU0&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=53)
+
+### Section 5: Asynchronous processing with background workers [Asynq + Redis]
+
+- Lecture #54: [Implement background worker in Go with Redis and Asynq](https://www.youtube.com/watch?v=XOXdYs8mKkI&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=54)
+- Lecture #55: [Integrate async worker to Go web server](https://www.youtube.com/watch?v=eXYKGPEXocM&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=55)
+- Lecture #56: [Send async tasks to Redis within a DB transaction](https://www.youtube.com/watch?v=ZfFxdPbgN88&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=56)
+- Lecture #57: [How to handle errors and print logs for Go Asynq workers](https://www.youtube.com/watch?v=YgfmPIJRg2U&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=57)
+- Lecture #58: [A bit of delay might be good for your async tasks](https://www.youtube.com/watch?v=ILNiZgseLUI&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=58)
+- Lecture #59: [How to send emails in Go via Gmail](https://www.youtube.com/watch?v=L9TbZxpykLQ&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=59)
+- Lecture #60: [How to skip test in Go and config test flag in vscode](https://www.youtube.com/watch?v=0UwZGM9iqTE&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=60)
 
 ## Simple bank service
 
@@ -198,7 +206,7 @@ The service that we’re going to build is a simple bank. It will provide APIs f
 - Create a new db migration:
 
     ```bash
-    migrate create -ext sql -dir db/migration -seq <migration_name>
+    make new_migration name=<migration_name>
     ```
 
 ### How to run
