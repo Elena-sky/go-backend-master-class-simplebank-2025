@@ -92,7 +92,26 @@ This repository contains the codes of the [Backend Master Class](https://bit.ly/
 - Lecture #67: [How to handle DB errors with PGX driver](https://www.youtube.com/watch?v=9vf3zxrMUgw&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
 - Lecture #68: [Docker compose: port + volume mapping](https://www.youtube.com/watch?v=nJBT5SKENAw&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
 - Lecture #69: [How to install & use binary packages in Go](https://www.youtube.com/watch?v=TnJ4ssoNvkY&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
-- Lecture #70: [How to install & use binary packages in Go](https://www.youtube.com/watch?v=Py7dRhtuJ3E&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
+- Lecture #70: [Implement role-based access control (RBAC) in Go](https://www.youtube.com/watch?v=Py7dRhtuJ3E&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
+- Lecture #71: [Grant AWS EKS cluster access to Postgres and Redis using security group](https://www.youtube.com/watch?v=pPXYu6QQGE8&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
+- Lecture #72: [Deploy gRPC + HTTP server to AWS EKS cluster](https://www.youtube.com/watch?v=Pd7aeh014nU&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
+- Lecture #73: [Don't lose money on AWS](https://www.youtube.com/watch?v=VEf7IpUn6BQ&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
+- Lecture #74: [Graceful shutdown gRPC/HTTP servers and async worker](https://www.youtube.com/watch?v=TdB2W8l4dHw&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
+- Lecture #75: [Go 1.22 fixed the most common for-loop trap](https://www.youtube.com/watch?v=rIHO9TqJtQQ&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
+- Lecture #76: [Setup CORS policy with Go and VueJS](https://www.youtube.com/watch?v=hOz4f4SdArc&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
+- Lecture #77: [Upgrade golang JWT package to v5](https://www.youtube.com/watch?v=iVk3jOF1Cv4&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE)
+
+## Frontend crash course videos (Vue.JS)
+
+- Lecture #1: [Build reactive web app with VueJS](https://www.youtube.com/watch?v=fRGgDBCWQJg&list=PLy_6D98if3UI3rsFRTHM1LMtVprYMp-GT)
+- Lecture #2: [Introduction to Vue router and Vue component](https://www.youtube.com/watch?v=4rv484TofFA&list=PLy_6D98if3UI3rsFRTHM1LMtVprYMp-GT)
+- Lecture #3: [Build a login form with VueJS, PrimeVue and PrimeFlex](https://www.youtube.com/watch?v=K7p7QeUkGpE&list=PLy_6D98if3UI3rsFRTHM1LMtVprYMp-GT)
+- Lecture #4: [Vue reactivity with v-model and computed](https://www.youtube.com/watch?v=hZmmcvGsyyk&list=PLy_6D98if3UI3rsFRTHM1LMtVprYMp-GT)
+- Lecture #5: [Send HTTP request from Vue to backend API](https://www.youtube.com/watch?v=vkAhInOcWsw&list=PLy_6D98if3UI3rsFRTHM1LMtVprYMp-GT)
+- Lecture #6: [Setup CORS policy with Go and VueJS](https://www.youtube.com/watch?v=hOz4f4SdArc&list=PLy_6D98if3UI3rsFRTHM1LMtVprYMp-GT)
+- Lecture #7: [How to store auth state in Vue.JS](https://www.youtube.com/watch?v=A0YSEZPxKU0&list=PLy_6D98if3UI3rsFRTHM1LMtVprYMp-GT)
+- Lecture #8: [Use Vue props to pass values to child component](https://www.youtube.com/watch?v=-mJzUkpKSEg&list=PLy_6D98if3UI3rsFRTHM1LMtVprYMp-GT)
+- Lecture #9: [Logout user with Vue emit](https://www.youtube.com/watch?v=Jp09xJgpU-4&list=PLy_6D98if3UI3rsFRTHM1LMtVprYMp-GT)
 
 ## Simple bank service
 
